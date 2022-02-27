@@ -8,3 +8,100 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+nav {
+  background-color: #1c5380 ;
+  height: 280px;
+  margin-top: -75px;
+}
+
+.brand {
+  position: absolute;
+  top: 60px;
+  right: 293px;
+}
+
+.button1 {
+  position: absolute;
+  top: 82px;
+  right: 152px;
+  background-color: #1c5380;
+  color: white;
+  width: 91px;
+  height: 32px;
+  text-align: right;
+}
+
+.home {
+  position: absolute;
+  top: 86px;
+  right: 209px;
+  z-index: 3;
+}
+
+.frame {
+  position: absolute;
+  top: 148px;
+  right: 128px;
+  width: 488px;
+  Height: 301px;
+  z-index: 4;
+}
+
+.lastsection h2{
+  position: absolute;
+  top: 150px;
+  right: 263px;
+  left: 783px;
+  color: #06365f;
+  z-index: 7;
+  /*border: 2px solid red;*/
+  font-size: 30px;
+}
+
+.text {
+  position: absolute;
+  top: 260px;
+  left: 780px;
+  right: 153px;
+  /*border: 2px solid red;*/
+  z-index: 5;
+}
+
+.imagebutton {
+  position: absolute;
+  top: 500px;
+  right: 255px;
+}
+
+.phone {
+  position: absolute;
+  top: 126px;
+  left: 239px;
+  width: 302px;
+  height: 437px;
+}
+
+.footer {
+  display: flex;
+}
+
+footer ul {
+  display: inline;
+  margin-top: 406px;
+  justify-content: center;
+  list-style: none;
+  
+}
+
+footer ul li a{
+  text-decoration: none;
+  padding: 7px 13px 7px 7px;
+  color: #1c5380;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.lastli {
+  color: gray;
+}
